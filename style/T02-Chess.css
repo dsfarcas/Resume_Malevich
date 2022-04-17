@@ -1,0 +1,47 @@
+/* CHESSBOARD ASSIGNMENT */
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    /* height: 500px;
+    width: 500px; */
+    
+  }
+
+
+th, td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 0px;
+}
+
+.odd td:nth-child(even) {
+    background-color: rgb(172, 169, 169);
+    color: white;
+}
+
+.even td:nth-child(odd) {
+    background-color: rgb(172, 169, 169);
+    color: white;
+}
+
+#black td {
+    font-weight: 900;
+    font-size: 40px;
+    color:black;
+    fill: black;
+}
+
+#white td {
+    font-weight: 900;
+    font-size: 40px;
+    color:black;
+}
+
